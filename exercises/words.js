@@ -7,6 +7,9 @@
  */
 
 // Your code:
+const words = string => string.split(" ")
+
+
 
 //* Begin of tests
 const assert = require('assert');
