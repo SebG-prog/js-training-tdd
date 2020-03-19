@@ -7,13 +7,8 @@
  */
 
 // Your code:
-const sentence = array => {
-	let result = array[0]
-	for (let i = 1; i < array.length; i++) {
-		result += " " + array[i]
-	}
-	return result
-}
+const sentence = array => array.join(" ")
+
 //* Begin of tests
 const assert = require('assert');
 
